@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafbfc;
+  font-family: 'Roboto Mono', monospace; 
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+/* Inputform.css */
+.input-form {
+    display: flex;
+    align-items: center;
+}
+
+.input-field {
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.submit-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Repodata.css */
+.repo-container {
+    margin-top: 20px;
+}
+
+.repo-info {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.f{
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+.f1 {
+    color: #007bff;
+}
+
+.f2 {
+    color: #28a745;
+    margin-left: 40px;
+}
+
+/* App.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 450px;
+    align-items: center;
+    margin: 80px 0 0 90px;
+  }
+ 
+  
+  .btnn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .heading{
+    background-color: #24292e;
+    color: white;
+    height: 60px;
+    margin-top: 0;
+    padding: 20px 0 0 30px;
+  }
+
+  .reponame:link, .reponame:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .reponame{
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 250px;
+    color: blue;
+    width:250px;
+  }
+  .reponame:hover, .reponame:active {
+    background-color: green;
+    color: white;
+  }
+
+  .repoDiv{
+    margin-left: 70px;
+    align-items: center;
+    
+  }
+  .head{
+    display: flex;
+    margin-top: 40px;
+  }
+  ul {
+    list-style-type: none; /* Remove default list dot */
+    padding: 0; /* Remove default padding */
+  }
+  .head h1{
+    margin: 15px 0 0 30px;
+    font-size: 2rem;
+  }
+  .head img{
+    height: 70px;
+    width: auto;
+  }
+
+  .repoDiv p{
+    font-size: 1.3rem;
+    margin: 40px 0 40px 0;
+  }
